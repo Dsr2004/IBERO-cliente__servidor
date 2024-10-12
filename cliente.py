@@ -3,7 +3,7 @@ import threading
 
 def enviar_mensajes(cliente_socket):
     while True:
-        mensaje = input("Ingrese un mensaje: ")
+        mensaje = input("")
         cliente_socket.send(mensaje.encode('utf-8'))
 
 
